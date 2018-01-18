@@ -13,3 +13,7 @@ class Dog():
     def roll_over(self):
         """Simulate rolling over in a response to a command."""
         print(self.name.title() + " rolled over!")
+
+    def jump(self):
+        """Simulate jumpig over a response to a command."""
+        print(self.name.title() + " jumped!")
